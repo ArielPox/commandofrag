@@ -16,6 +16,8 @@ A hands-on learning journal for mastering retrieval-augmented generation (RAG), 
 - Build one document question-answering project throughout the course.
 - Explain decisions in English. The coach answers the technical question and briefly corrects useful grammar and word-choice mistakes.
 - Work through one lesson at a time. Attempt the exercise before requesting a complete solution.
+- 练习按“首次作答 → 评审与提示 → 学习者提交修订 → 公布参考答案并对照评审”的顺序进行。首次评审只指出问题和给出必要提示，不提前公布正确答案；提交修订后才公布。后续新题继续遵守此顺序。
+- 课程文档统一使用四个模块：本节课知识；练习、评审、修订与答案公布；注意事项与开发常见问题（直接问答）；英文知识补充。保留学习者原始作答，合并重复评审，当前进度只保留一处。
 - Completion requires an artifact, an explanation, and review. Creating this plan does not count as completing a lesson.
 - Updates happen during our chats when work is shared or reviewed; there is no automatic monitoring.
 

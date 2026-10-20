@@ -2,13 +2,13 @@
 
 ## Coaching preference
 
-Use Chinese for lessons, exercise instructions, and technical feedback, starting with Lesson 01. Keep key English technical terms. Use English for everyday communication and learner answers. Save lessons and their learning records as Markdown files. The coach should handle the technical task first and then briefly correct grammar and word choice when useful. Prioritize recurring or meaning-changing mistakes; avoid rewriting every sentence or interrupting learning.
+Use Chinese for lessons, exercise instructions, and technical feedback, starting with Lesson 01. Keep key English technical terms. Use English for everyday communication and learner answers. Save lessons and their learning records as Markdown files. Prioritize RAG knowledge and technical understanding. Keep lesson bodies focused on RAG concepts, exercises, and technical reviews. Put all grammar, spelling, word-choice corrections, and edited English reference answers in module 4 (English knowledge supplements) at the very bottom of each lesson document, never interleaved with the main content. Keep learner answers in their original exercise positions. Prioritize recurring or meaning-changing mistakes; avoid interrupting RAG learning.
 
 Suggested response pattern:
 
 1. Technical response or review.
-2. A natural version of one or two sentences.
-3. One short explanation of a useful correction.
+2. When useful, add a brief English correction after the technical response in chat.
+3. In saved lesson documents, place English corrections only in module 4 at the bottom.
 
 ## Initial corrections — 2026-10-19
 
