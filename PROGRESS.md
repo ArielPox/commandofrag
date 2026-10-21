@@ -1,8 +1,8 @@
 # Learning progress
 
-Last updated: 2026-10-20  
+Last updated: 2026-10-21  
 Current stage: 1 — RAG foundations  
-Current assignment: [Lesson 01](lessons/01-rag-basics.md)  
+Current assignment: [Lesson 02: Keyword retrieval](lessons/02-keyword-retrieval.md); Lesson 01 C remains pending  
 Learning lessons completed: 0  
 Pace: provisional, about 5 hours/week; weekly availability not yet confirmed.
 
@@ -19,11 +19,19 @@ Pace: provisional, about 5 hours/week; weekly availability not yet confirmed.
 
 **下一步：** 修正 C3，并补全具体排查／改进动作；通过后进入 Python 关键词检索基线练习。后续练习先评审与提示，收到学习者修订后再公布参考答案。详细证据见 [Lesson 01](lessons/01-rag-basics.md)。
 
+## Lesson 02 当前进度（2026-10-21）
+
+- 已开始第二课：Python 关键词检索基线，仍属于 Stage 1。
+- 已准备中文四模块课程、三个虚构政策文档和待实现代码脚手架。
+- 本课实现尚未完成，未提交运行输出，不计为完成；Lesson 01 C 仍待修订，D 已取消。
+- 下一步：完成 Lesson 02 的 2.2 热身、2.3 预测，再实现评分与检索函数。
+- 课程：[Lesson 02](lessons/02-keyword-retrieval.md)；代码：[练习脚手架](exercises/lesson02_keyword_search.py)。
+
 ## Milestones
 
 | Stage | Status | Evidence | Next action |
 | --- | --- | --- | --- |
-| 1. Foundations and baseline | In progress | [Lesson 01 notes](lessons/01-rag-basics.md) | A and B passed the technical check. Revise C; Exercise D was removed at the learner’s request. |
+| 1. Foundations and baseline | In progress | [Lesson 01 notes](lessons/01-rag-basics.md) | Begin Lesson 02 keyword retrieval; retain Lesson 01 C revision as a warm-up. Exercise D remains removed. |
 | 2. Ingestion and chunking | Not started | — | Finish Stage 1 checkpoint. |
 | 3. Dense retrieval | Not started | — | Finish Stage 2 checkpoint. |
 | 4. Grounded generation | Not started | — | Finish Stage 3 checkpoint. |
@@ -117,6 +125,13 @@ Evidence should link to code, notes, output, or a reviewed explanation. Do not c
 - Reorganized Lesson 01 into lesson knowledge; exercises, reviews, revisions and published answers; development precautions and direct Q&A; English supplements.
 - Preserved learner answer wording, including text formerly hidden in HTML comments, and consolidated repeated technical reviews and outdated status summaries.
 - Recorded the four-module format for future lessons. A/B remain passed; C needs revision; completed lessons remain 0.
+
+### 2026-10-21 — Lesson 02 started
+
+- Started the second lesson at the learner’s request without marking Lesson 01 complete.
+- Added a four-module Chinese lesson, a synthetic English corpus, and a standard-library-only Python exercise scaffold.
+- Kept the answer-first, hints, revision, then reference-answer teaching sequence; full retrieval implementation and exercise rankings are not supplied.
+- No learner code or results have been reviewed for Lesson 02. Completed lessons remain 0.
 
 ### Template for the next session
 

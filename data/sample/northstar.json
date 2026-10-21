@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DOC-01",
+    "title": "Return policy",
+    "source": "synthetic:northstar/returns",
+    "text": "An unused, non-personalized product can be returned within 30 calendar days after delivery. A return requires the order number. Personalized products can only be returned if defective."
+  },
+  {
+    "id": "DOC-02",
+    "title": "Shipping policy",
+    "source": "synthetic:northstar/shipping",
+    "text": "Standard shipping takes 3 to 5 business days. Express shipping takes 1 to 2 business days. The delivery estimate starts after the order is dispatched."
+  },
+  {
+    "id": "DOC-03",
+    "title": "Warranty policy",
+    "source": "synthetic:northstar/warranty",
+    "text": "Electronics have a one-year warranty against manufacturing defects. Accidental damage is excluded. Warranty claims require proof of purchase."
+  }
+]

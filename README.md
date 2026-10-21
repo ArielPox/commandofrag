@@ -27,6 +27,11 @@ Build a document assistant that retrieves useful passages, answers with verifiab
 
 Start with Python, Markdown/text documents, a keyword baseline, and an in-memory dense search implementation. Add persistence, reranking, and an interface only as the project needs them. Select specific models and providers when you reach those lessons, based on hardware, budget, language, and current documentation.
 
+## Current lesson
+
+- [Lesson 02: Keyword retrieval](lessons/02-keyword-retrieval.md) — started 2026-10-21; Python exercise and corpus linked inside.
+- Lesson 01 A/B passed; C remains a warm-up revision.
+
 ## Repository guide
 
 - [LEARNING_PLAN.md](LEARNING_PLAN.md): milestones, exercises, and readiness checks.
