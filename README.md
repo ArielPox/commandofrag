@@ -1,43 +1,35 @@
-# Command of RAG
+# Command of RAG · All-in-RAG 实践工作区
 
-A hands-on learning journal for mastering retrieval-augmented generation (RAG), with English practice alongside technical work.
+本工作区以实现 [Datawhale All-in-RAG 教程](https://datawhalechina.github.io/all-in-rag/) 的内容为目标。以本地章节代码为基础，逐个运行、排错、修改并验证结果，具体知识在实现时解释。
 
-## Start here
+## 从这里开始
 
-1. Read [the learning plan](LEARNING_PLAN.md).
-2. Complete [Lesson 01: Trace a RAG answer](lessons/01-rag-basics.md).
-3. Share your exercise and explanation in our chat for review.
-4. Record reviewed work in [the progress tracker](PROGRESS.md).
+1. 当前任务：[C1 LangChain 示例](all-in-rag/code/C1/01_langchain_example.py)。
+2. 运行准备与验收：[起步指南](docs/QUICKSTART.md)。
+3. 后续路线：[实践计划](LEARNING_PLAN.md)；真实完成情况：[进度记录](PROGRESS.md)。
+4. 按需查阅：[本地教程目录](all-in-rag/docs/_sidebar.md)。
 
-## Learning agreement
+## 目录分工
 
-- Starting level: comfortable building Python projects.
-- Suggested pace: 8 weeks, about 5 hours per week; adjust to your schedule. These are learning stages, not deadlines.
-- Build one document question-answering project throughout the course.
-- Explain decisions in English. The coach answers the technical question and briefly corrects useful grammar and word-choice mistakes.
-- Work through one lesson at a time. Attempt the exercise before requesting a complete solution.
-- 练习按“首次作答 → 评审与提示 → 学习者提交修订 → 公布参考答案并对照评审”的顺序进行。首次评审只指出问题和给出必要提示，不提前公布正确答案；提交修订后才公布。后续新题继续遵守此顺序。
-- 课程文档统一使用四个模块：本节课知识；练习、评审、修订与答案公布；注意事项与开发常见问题（直接问答）；英文知识补充。保留学习者原始作答，合并重复评审，当前进度只保留一处。
-- Completion requires an artifact, an explanation, and review. Creating this plan does not count as completing a lesson.
-- Updates happen during our chats when work is shared or reviewed; there is no automatic monitoring.
+| 路径 | 用途 |
+| --- | --- |
+| all-in-rag/docs/ | 教程章节说明 |
+| all-in-rag/code/C1–C9/ | 主要实践对象：章节示例与综合项目 |
+| all-in-rag/data/ | 对应章节的配套资料 |
+| all-in-rag/Extra-chapter/ | 后续扩展实践 |
+| docs/QUICKSTART.md、LEARNING_PLAN.md、PROGRESS.md | 本机运行指南、实践路线与结果记录 |
+| pyproject.toml、uv.lock、.venv/ | 外层项目依赖与环境，需与教程版本核对 |
+| main.py | 目前仅打印欢迎信息，不是教程入口 |
+| data/sample/ | 之前保留的备用样例，当前优先使用教程资料 |
 
-## Project goal
+## 协作约定
 
-Build a document assistant that retrieves useful passages, answers with verifiable source references, recognizes insufficient evidence, and has a reproducible evaluation report.
+- 先运行教程示例，再更换输入或参数，观察结果。
+- 助手直接协助实现、排错并解释关键代码；不设置手写算法、英文作答或理论考试前置条件。
+- 中文讲解，保留必要英文术语。每次只围绕当前功能补充知识。
+- 每次记录解释器、工作目录、命令、真实输出和未解决问题。
+- 代码已有不等于运行成功，只按实际验证更新进度。
+- 在当前章节需要时再安装依赖、启动数据库。保留本地已有修改，不用上游版本直接覆盖。
+- 外层 uv 配置与教程 requirements.txt 是不同依赖声明，先确定环境再安装，避免混装。
 
-Start with Python, Markdown/text documents, a keyword baseline, and an in-memory dense search implementation. Add persistence, reranking, and an interface only as the project needs them. Select specific models and providers when you reach those lessons, based on hardware, budget, language, and current documentation.
-
-## Current lesson
-
-- [Lesson 02: Keyword retrieval](lessons/02-keyword-retrieval.md) — started 2026-10-21; Python exercise and corpus linked inside.
-- Lesson 01 A/B passed; C remains a warm-up revision.
-
-## Repository guide
-
-- [LEARNING_PLAN.md](LEARNING_PLAN.md): milestones, exercises, and readiness checks.
-- [PROGRESS.md](PROGRESS.md): current status, evidence, and session notes.
-- [lessons/01-rag-basics.md](lessons/01-rag-basics.md): your first assignment.
-- [ENGLISH_PRACTICE.md](ENGLISH_PRACTICE.md): corrections and a short writing routine.
-
-Later, add `src/`, `tests/`, `data/sample/`, `eval/`, and `experiments/` as you build them. Use public or synthetic documents in this public repository. Keep credentials in environment variables and exclude secrets and private datasets from Git.
-# commandofrag
+当前 C1 尚未完成端到端运行验证，已知问题见进度记录。
